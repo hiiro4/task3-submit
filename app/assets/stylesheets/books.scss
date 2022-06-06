@@ -1,0 +1,71 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table{
+  width: 100%;
+}
+
+thead{
+  text-align: center;
+  border-bottom: 2px solid #797979;
+  border-top: 2px solid #797979;
+  margin: 100px;
+}
+
+
+
+.l-h{
+    border-top: 1px solid #797979;
+    padding: 10px;
+  }
+.icon-box{
+  width: 100%;
+  border: 1px solid #797979;
+  text-align:center;
+}
+.l-icon-color{
+  color:#797979;
+}
+.list-a{
+  background-color:green;
+  color:white;
+}
+
+.top-box{
+  margin:0px auto auto auto ;
+  color:white;
+}
+
+.top-sign_in{
+  text-align:center;
+  margin:auto auto 10px auto;
+  background-color:#bad4d1;
+}
+.top-sign_up{
+  text-align:center;
+   margin:auto;
+  background-color:#c3dcbe;
+}
+.top-a-color{
+  color:white;
+}
+
+.devise{
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.d-a{
+  background-color:blue;
+  color:white;
+}

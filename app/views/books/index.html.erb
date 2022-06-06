@@ -1,0 +1,30 @@
+
+<div class="container">
+    <div class="row">
+        <%= render"list" %>
+<div class="col-md-8 offset-md-1">
+    
+    <h1>Books</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>title</th>
+      <th>opinion</th>
+      <th></th>
+    </tr>
+  </thead>
+   <%@books.each do |book| %>
+  <tbody class=>
+     <tr class=>
+         <td><%=link_to user_path(book.user_id) do %><%=image_tag book.user.get_profile_image(100,100) %></td><%end%>
+         <td><%=link_to book_path(book.id) do %><%=book.title %></td><%end%>
+         <td><%=book.body %></td>
+     </tr>
+     <%end%>
+   </tbody>
+  </table>
+
+</div>
+</div>
+</div>
